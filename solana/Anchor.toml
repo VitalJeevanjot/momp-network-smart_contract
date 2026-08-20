@@ -1,0 +1,14 @@
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+momp_solana = "MoMP111111111111111111111111111111111111111"
+
+[provider]
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
+
+[workspace]
+members = ["programs/momp-solana"]
+
