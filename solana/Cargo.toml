@@ -1,0 +1,9 @@
+[workspace]
+members = ["programs/momp-solana"]
+resolver = "2"
+
+[profile.release]
+overflow-checks = true
+lto = "fat"
+codegen-units = 1
+
